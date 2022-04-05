@@ -1,0 +1,48 @@
+body {
+margin: 0;
+padding: 0;
+background: url(../imagenes/fondo-cues2.png) no-repeat;
+background-position: center;
+background-size: cover; 
+background-attachment: fixed;
+text-align: justify;
+height: 100vh;
+font-size: Arial;
+
+}
+
+#cont {
+
+	margin: auto;
+	background: rgba(255, 255, 255, 0.7);
+	border-radius: 10px;
+	}
+
+.fr {
+
+text-align: center;
+border-bottom-style: solid;
+border-bottom-color: black;
+
+}
+
+.but{
+
+	background-color: #48e;
+	color: #fff;
+	width: calc(20% - 20px);
+	border: 1 px solid;
+	margin-top: 5px;
+	margin-right: 100px;
+
+}
+
+.but_f{
+
+	background-color: #48e;
+	color: #fff;
+	width: calc(30% - 20px);
+	border: 1 px solid;
+	margin-left: 200px;
+	margin-top: 5px;
+}

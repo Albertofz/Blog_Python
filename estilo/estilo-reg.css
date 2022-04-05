@@ -1,0 +1,91 @@
+body {
+margin: 0;
+padding: 0;
+background: url(../imagenes/fd-ini-ser.jpg) no-repeat center top;
+background-size: cover; 
+height: 100vh;
+font-size: Arial;
+}
+
+form.login-box {
+	width: 360px;
+	height: 460px;
+	color: #ffffff;
+	background: black;
+	top: 45%;
+	left: 61%;
+	position: absolute;
+	transform: translate(-50px, -40%);
+	box-sizing: border-box;
+	padding: 50px 30px;
+}
+
+form.login-box h1 {
+
+	padding: 0 0 20px;
+	margin: 0;
+	text-align: center;
+	font-size: 22px;
+}
+
+form.login-box label {
+
+	padding: 0;
+	margin: 0;
+	font-weight: bold;
+	display: block;
+}
+
+form.login-box input{
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+form.login-box input[type = "text"],
+form.login-box input[type = "password"]{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 30px;
+	font-size: 12px;
+	color: #fff;
+}
+
+form.login-box input[type = "submit"]{
+	border: none;
+	outline: none;
+	bottom: 20px;
+	height: 40px;
+	color: black;
+	font-weight: bold;
+	font-size: 20px;
+	border-radius: 20px;
+	margin-top: 10px;
+}
+
+
+form.login-box a{
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 20px;
+	color:  darkgrey;
+}
+form.login-box a:hover{
+	color: lightblue;
+}
+
+.ok {
+	text-align: center;
+	width: 100%;
+	padding: 12px;
+	background-color: #1e6;
+	color: #fff
+}
+.bad {
+	text-align: center;
+	width: 100%;
+	padding: 12px;
+	background-color: #a22;
+	color: #fff
+}

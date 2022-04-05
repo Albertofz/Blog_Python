@@ -1,0 +1,13 @@
+body {
+	background: url(../imagenes/fd-inicio.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-family: Arial;
+	}
+
+.carousel-inner {
+	max-height: 50rem;
+}	
+ 
